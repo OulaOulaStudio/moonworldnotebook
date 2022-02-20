@@ -101,5 +101,7 @@ theme: butterfly
 
 # Deployment
 ## Docs: https://hexo.io/docs/one-command-deployment
-deploy:
-  type: ''
+deploy: 
+  type: git
+  repo: https://github.com/OulaOulaStudio/oulaoulastudio.github.io.git
+  branch: master
